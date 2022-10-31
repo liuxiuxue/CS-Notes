@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T07:06:42.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MzvrpEreJ_9GE6lzLt_v" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T07:11:16.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jIwmq2ChUtkvxkT9RQdj" version="20.5.1" type="github">
   <diagram id="m0GHn1RrGGVa0GQwSvzc" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -62,8 +62,8 @@
         <mxCell id="_ws1HzR2Q_tUX9zGHK6R-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-19" target="_ws1HzR2Q_tUX9zGHK6R-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-19" value="山东省政务网用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="610" y="185" width="120" height="30" as="geometry" />
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-19" value="作为client接入山东省政务网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="585" y="185" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_ws1HzR2Q_tUX9zGHK6R-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-20" target="_ws1HzR2Q_tUX9zGHK6R-22">
           <mxGeometry relative="1" as="geometry" />
@@ -100,6 +100,9 @@
         </mxCell>
         <mxCell id="_ws1HzR2Q_tUX9zGHK6R-38" value="内网用户" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontSize=13;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-39" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
