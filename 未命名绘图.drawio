@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T06:42:37.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="oy3eZqDEKDWG8lP7Fw9p" type="github"><diagram id="m0GHn1RrGGVa0GQwSvzc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-31T07:06:42.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MzvrpEreJ_9GE6lzLt_v" version="20.5.1" type="github">
+  <diagram id="m0GHn1RrGGVa0GQwSvzc" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-2" target="_ws1HzR2Q_tUX9zGHK6R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-28" value="根据角色决定能否跳转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_ws1HzR2Q_tUX9zGHK6R-9">
+          <mxGeometry x="0.4276" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-2" target="_ws1HzR2Q_tUX9zGHK6R-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-2" target="_ws1HzR2Q_tUX9zGHK6R-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-32" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;code授权码模式给与第三方token&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1" vertex="1" connectable="0" parent="_ws1HzR2Q_tUX9zGHK6R-31">
+          <mxGeometry x="-0.1201" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-2" value="AuthServer&lt;br&gt;(认证服务器)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-5" value="ClientA门户客户端" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-6" value="ClientB科技局计划申报" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="569.5" as="sourcePoint" />
+            <mxPoint x="610" y="569.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-18" value="ClientXXX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="_ws1HzR2Q_tUX9zGHK6R-7">
+          <mxGeometry x="-0.4118" y="2" relative="1" as="geometry">
+            <mxPoint x="30" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-16" target="_ws1HzR2Q_tUX9zGHK6R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-16" value="自研系统用户&lt;br&gt;username&lt;br&gt;password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-19" target="_ws1HzR2Q_tUX9zGHK6R-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-19" value="山东省政务网用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="610" y="185" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-20" target="_ws1HzR2Q_tUX9zGHK6R-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-20" value="对接获取token" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-22" target="_ws1HzR2Q_tUX9zGHK6R-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="80" />
+              <mxPoint x="299" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-27" value="1.自动注册为自研系统用户&lt;br&gt;2.直接通过注册的用户名密码登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="_ws1HzR2Q_tUX9zGHK6R-26">
+          <mxGeometry x="0.0757" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-22" value="拿到用户基本信息" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_ws1HzR2Q_tUX9zGHK6R-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-30" value="OtherApp&lt;br&gt;(第三方接入的其它系统，非自研)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="780" y="338" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-36" value="通过token获取到用户基本信息后，后续的操作是第三方系统内部的处理流程" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="980" y="350" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_ws1HzR2Q_tUX9zGHK6R-38" value="内网用户" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontSize=13;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
